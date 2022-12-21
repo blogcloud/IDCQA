@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--标题-->
+    <title>萌新个人主页 | 萌新</title>
+    <!--引用CSS样式-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--左上角logo-->
+    <a class="logo" href="https://www.blogcloud.net"></a>
+    <div class="content">
+        <!--背景-->
+        <!--Start-->
+        <div class="background">
+            <img class="background-image-nagetive" src="image/1.jpg" alt="静态背景">
+            <img class="background-image-active" src="image/123.gif" alt="动态背景">
+            <img class="background-image-active-pc" src="image/111.jpg" alt="PC静态背景">
+            <!--背景MP4-->
+            <video class="background-video" src="image/bgvideo.mp4" preload="auto" autoplay muted loop style="opacity: 1;transition: opacity 0.5s linear 0s"></video>
+        </div>
+        <!--End-->
+        <div class="frame">
+            <div class="text-center">
+                <!--中间标题名称-->
+                <!--Start-->
+                <h1 class="">萌新个人主页</h1>
+                <!--End-->
+                <p class=""></p>
+                <!--随机输出毒鸡汤-->
+                <!--使用自建毒鸡汤API接口-->
+                <!--Start-->
+                <script src="https://api.0nav.com/dujitang/api/?format=js&charset=utf-8"></script>
+                <a href="https://api.0nav.com/jitang/" target="_blank" rel="external nofollow">
+                    <span id="hitokoto" style="color:#426565">
+                        <script>hitokoto()</script>
+                    </span>
+                </a>
+                <!--End-->
+            </div>
+            <div class="button-group">
+                <a href="https://www.xiaoweio.com" target="_blank">小威博客<div class="border-bottom"></div></a>
+                <a href="https://www.blogcloud.net" target="_blank">云服务器<div class="border-bottom"></div></a>
+                <a href="https://chuangweii.com/baremetal/buy.html" target="_blank">独立服务器<div class="border-bottom"></div></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
